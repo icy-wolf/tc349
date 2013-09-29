@@ -1,0 +1,34 @@
+header {
+	 postion: absolute;
+      text-align: right;
+      background: url('http://www.astexhibits.com/astx/wp-content/uploads/2013/04/Planet-earth.jpg');
+      background-size: cover;
+      color: white;
+	  height: 300px;
+    }
+body {
+	background-color: black;
+	font-size: 20px;
+	text-align: center;
+	position: center;
+}
+h1 { 
+	font-family: Comic Sans MS;
+	text-align: right;
+	font-size: 45px;
+	color: white;
+	}
+a:link {
+	color: white;
+	text-align: center;
+}  
+a:visited {
+	color: white;
+	text-align: center;
+}
+ul {
+      font-family: Ariel;
+      background: rgba(7,9,8,.75);
+	  text-align: center;
+	  font-size: 25px;
+    }

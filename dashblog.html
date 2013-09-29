@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://fc06.deviantart.net/fs51/i/2010/123/c/4/Blue_Wolf_Eyes_by_8TwilightAngel8.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: #28F;
+    }
+    h1 {
+      font-size: 35px;
+      color: #FFF;
+      
+    }
+    img {
+      
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      width: 150;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,9,9,.75);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://fc01.deviantart.net/fs71/f/2013/070/0/4/profile_picture_by_snow_whitewolf-d5xpbm7.png">
+    <h1>Nicole's Novels</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Novels</a></li>
+      <li><a href="#">Worst Novels</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Into The Unknown</h2>
+    <p>Everything can change in the blink of an eye. Eight young friends find themselves in a world they do not know. A world where evil lurks in every shadow and transforming into giant animals is common. Can they find their way back home?
+    Marie was a simple girl who went to prep school but always felt like something was missing. Dustin was a farmer boy who's sole focus was to be become something better. Can they ignore the sizzle between them to find a way out of this bizzare place? Or will they be consumed... at great cost?
+    </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Into The Dark</h2>
+    <p>Follow eight young friends as they make their way through an unpredicatable place. Nikki is fighter from the ghetto. Always holding onto what she has tightly. Never taking anything for granted and protecting what is hers. Cameron can't keep Nikki off of his mind even though they are supposed to be enemys. Will he follow Nikki's light even with the threat that darkness will consume her?</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Into The Fire</h2>
+    <p>All Jason every wanted to do was be with his girlfriend but now she's dead... or is she? With the hope that Rachel could actually be alive he fights his guilt for not being able to save her. Can Rachel help him to see the light inside? Or will their passion be consumed by fire and darkness?</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
