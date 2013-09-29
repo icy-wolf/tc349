@@ -1,34 +1,18 @@
-header {
-	 postion: absolute;
-      text-align: right;
-      background: url('http://www.astexhibits.com/astx/wp-content/uploads/2013/04/Planet-earth.jpg');
-      background-size: cover;
-      color: white;
-	  height: 300px;
-    }
 body {
-	background-color: black;
-	font-size: 20px;
-	text-align: center;
-	position: center;
+	background: #ccc;
+	border-top: 5px solid #424242;
+	margin: 0;
 }
-h1 { 
-	font-family: Comic Sans MS;
-	text-align: right;
-	font-size: 45px;
-	color: white;
-	}
-a:link {
-	color: white;
-	text-align: center;
-}  
-a:visited {
-	color: white;
-	text-align: center;
+h1{
+	margin: 0;
+	background: #aaa;
+	padding: 15px;
 }
-ul {
-      font-family: Ariel;
-      background: rgba(7,9,8,.75);
-	  text-align: center;
-	  font-size: 25px;
-    }
+.container {
+	background: #fff;
+	width: 600px;
+	margin: 0 auto;
+}
+#recipes {
+	padding: 15px;
+}
