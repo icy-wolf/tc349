@@ -1,0 +1,55 @@
+body {
+	background-color: black;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+h1 { 
+	background: #aaa;
+	font-family: Comic Sans MS;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+	text-shadow: 1px 1px 5px #424242;
+	margin: 0;
+	}
+a:link {
+	color: whtie;
+	text-align: center;
+}  
+a:visited {
+	color: white;
+	text-align: center;
+}
+ul {
+	  background: rgba(0,9,9,.75);
+	  text-align:center;
+	  font-size: 20px;
+	  margin: 0;
+    }
+li {
+	display: inline;
+	padding: 0px 50px 0px 10px;
+	text-shadow: 1px 1px 2px #424242;
+	}
+.holder{
+	background: #fff;
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+p {
+	padding-top: 20px;
+}
+h3 {
+	padding-bottom: 10px;
+}
+img {
+	width: 250px;
+}
+table, tr, td{
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+}
+table td {
+	padding: 10px;
+}
