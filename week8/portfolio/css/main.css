@@ -102,7 +102,7 @@ body {
 }
 
 header {
-	background: purple;
+	background: url(../img/nicole_header.jpg);
 	height: 462px;
 	padding: 40px;
 }
