@@ -124,8 +124,8 @@ h2 {
 #map-location {
 	background: #f3f3f3;
 	background-position: center;
-	background-image: url(../img/map.jpg);
 	height: 250px;
+	transition: background-image 1s;
 }
 
 nav {
