@@ -154,6 +154,21 @@ article {
 	border-color: #aeccf9;
 }
 
+nav ul {
+	margin: 30px 0 0 40px;
+}
+
+nav a {
+	color: #424242;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	border-top: 1px solid #e3e3e3;
+}
+
+nav a:hover {
+	background: #f3f3f3;
+}
 
 
 
@@ -268,8 +283,66 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 600px) {
+    nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	}
+	
+	h3 {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	
+	article {
+	margin-left: 20px;
+	}
+	
+	ul {
+	list-style-type: none;
+	padding: 0;
+	text-align:center;
+	}
+}
+
+@media(max-width: 480px){
+    nav {
+	float: none;
+	width: auto;
+	text-align: center;
+	}
+	
+	article {
+	margin-left: 20px;
+	}
+	
+	section {
+		margin: 10px 0 10px 0;
+		background-color: #ccc;
+	}
+	
+	h3 {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	
+	ul {
+	list-style-type: none;
+	padding: 0;
+	text-align:center;
+	}
+	.gallery li {
+	display: inline-block;
+	margin: 0;
+	border: 5px solid #ccc;
+	box-shadow: 0 0 10px #ccc;
+	transition: border-color .3s;
+	}
+	
+	.gallery li:hover {
+	border-color: #aaa;
+	}
 }
 
 @media print,
