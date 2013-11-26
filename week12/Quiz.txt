@@ -1,0 +1,35 @@
+1. True
+2. False, establish your Federal EIN.
+3. False
+4. One thing general liability insurance might cover someone coming to your business and falling and break their arm because they fell on the ice outside of the store front.
+5. True
+6. Calculate your hourly billing rate for a web design business if you aim to pay yourself $45,000/year with a profit margin of 25%.
+	Labor:
+	$45,000 x 1.35 = 60,750
+	Billable hours in a year: 1,152
+	$60,750/1,152 = 52.7 or $53/hour
+	
+	Overhead: $12,000/1,152 = 10.42 or $11/hour
+	
+	Operating Cost: $64/hour
+	
+	Profit: 25% or $16/hour
+	
+	**Final Hourly Rate: $80/hour**
+7. False, work for hire means copyright belongs to paying party.
+8. Find one local networking event in Lansing and one web design conference (globally) that's happening in 2014.
+
+Michigan ACE Women's Network 2014 Conference
+When: June 2, 2014
+Where: Kellogg Hotel & Conference Center
+**Also any company events with on campus groups like Society of Women Engineers and Women in Computing
+
+Ready to Inspire Leiden
+When: Feb. 1-5, 2014
+Where: Leiden, Netherlands
+
+9. False, it is advised to separate your business money from your personal money.
+10. Name three ways you could become a thought leader in your industry.
+	1. Guest blog on people's established blog
+	2. Go speak/present at conferences and events
+	3. Build trust as someone who knows the local industry well.
