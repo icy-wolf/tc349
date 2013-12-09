@@ -31,24 +31,16 @@
 					  <li><a href="project.html">Projects</a></li>
 				</ul>
 			</div>
-			<div class="indexcontent">
-				<section id="bio" class="row">
-					<figure class="figure1" id="click"><img alt="My pets" title="Click for a description" src="img/dogcat.jpg" onClick="animal();"></figure>
-					<div class="main1">
-						<h3>My life</h3>
-						<p>Welcome to my website! I am a sophomore in Computer Science at Michigan State University. I am the daughter of Linda and Christopher Lawrence. My interests include reading, writing, League of Legends and playing with my pets. If you click their picture I can tell you who they are!</p>
-					</div>
-				</section>
-				<section id="contact" class="row">
-					<figure class="figure2" id="click2">
-						<img alt="Nicole Lawrnece" title="Click for a description" src="img/ghc.png" onClick="ghc();">
-					</figure>
-					<div class="main2">
-						<h3>Contact Information</h3>
-						<p>Email:</p>
-						<a href="mailto:lawre272@msu.edu">lawre272@msu.edu </a>
-					</div>
-				</section>
+			<div class="projectcontent">
+				<div class="container">
+					<section id="truth" class="row">
+						<figure class="figure3"><img alt="Truth or Dare Game" src="img/truth.png"></figure>
+						<div class="main1">
+							<h3>Truth or Dare</h3>
+							<p>In the spring of 2013, I was taking an introduction to python course and decided to take what knowledge I acquired and make a simple Truth or Dare game. After completion, I have used it a number of times with my friends for good fun. Now I want to take this and see if I can add and improve on it when I re-write it in C++.</p>
+						</div>
+					</section>
+				</div>
 			</div>
 		</div>
 		
@@ -74,31 +66,30 @@
         <script src="js/main.js"></script>
 
 		<script type="text/javascript">
-			//if($(window).width() <= 600){
-			//	$("nav").removeAttr("data-0 data-800 data-1500);
-			//}
-			if ($(window).width() > 600) {
-			var s = skrollr.init();
-				
-			var s = skrollr.init(/*other stuff*/);
+		//if($(window).width() <= 600){
+		//	$("nav").removeAttr("data-0 data-800 data-1500);
+		//}
+		if ($(window).width() > 600) {
+		var s = skrollr.init();
+			
+		var s = skrollr.init(/*other stuff*/);
 
-			//The options (second parameter) are all optional. The values shown are the default values.
-			skrollr.menu.init(s, {
-			//skrollr will smoothly animate to the new position using `animateTo`.
-			animate: true,
+		//The options (second parameter) are all optional. The values shown are the default values.
+		skrollr.menu.init(s, {
+		//skrollr will smoothly animate to the new position using `animateTo`.
+		animate: true,
 
-			//The easing function to use.
-			easing: 'sqrt',
+		//The easing function to use.
+		easing: 'sqrt',
 
-			//How long the animation should take in ms.
-			duration: function(currentTop, targetTop) {
-				//By default, the duration is hardcoded at 500ms.
-				return 500;
-			},
-			}
-		});
-			</script>
-		
+		//How long the animation should take in ms.
+		duration: function(currentTop, targetTop) {
+			//By default, the duration is hardcoded at 500ms.
+			return 500;
+		},
+		}
+	});
+		</script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

@@ -31,22 +31,26 @@
 					  <li><a href="project.html">Projects</a></li>
 				</ul>
 			</div>
-			<div class="indexcontent">
-				<section id="bio" class="row">
-					<figure class="figure1" id="click"><img alt="My pets" title="Click for a description" src="img/dogcat.jpg" onClick="animal();"></figure>
+			<div class="workcontent">
+				<section id="matrix" class="row">
+					<figure class="figure1"><img alt="MATRIX" src="img/MATRIX_logo.jpg"></figure>
 					<div class="main1">
-						<h3>My life</h3>
-						<p>Welcome to my website! I am a sophomore in Computer Science at Michigan State University. I am the daughter of Linda and Christopher Lawrence. My interests include reading, writing, League of Legends and playing with my pets. If you click their picture I can tell you who they are!</p>
+						<h3>MATRIX</h3>
+						<p>I am a programmer at MATRIX. I worked on training tasks using PHP, mysql, jQuery, and KORA. I've made forums to upload pictures and then view that picture as well as the other pictures stored in the database. I've also worked on projects where I would need to display an English or French version of an essay depending on what link the user clicked.</p>
+					</div>	
+				</section>
+				<section id="prairie" class="row">
+					<figure class="figure2"><img alt="Prairie Farms Dairy, Inc." src="img/Prairie.jpg"></figure>
+					<div class="main2">
+						<h3>Prairie Farms Dairy, Inc.</h3>
+						<p>I worked at Prairie Farms over the summer as an office assistant. I ran copies, entered orders into the database, assembled monthly reports and worked the front desk. I worked between three or four different departments doing tasks that needed to be done that the current employees couldn't due to the heavy work load of the ice cream season.</p>
 					</div>
 				</section>
-				<section id="contact" class="row">
-					<figure class="figure2" id="click2">
-						<img alt="Nicole Lawrnece" title="Click for a description" src="img/ghc.png" onClick="ghc();">
-					</figure>
-					<div class="main2">
-						<h3>Contact Information</h3>
-						<p>Email:</p>
-						<a href="mailto:lawre272@msu.edu">lawre272@msu.edu </a>
+				<section id="mcdonald" class="row">
+					<figure class="figure1"><img alt="McDonalds" src="img/McDonalds.jpg"></figure>
+					<div class="main1">
+						<h3>McDonalds</h3>
+						<p>I worked a second job this summer at McDonalds. I was a crew member and worked in a customer service environment. I took orders on the front counter, at the drive-through window, I ran the fry baskets, assembled specialty drinks and handed out orders to our drive-through customers.</p>
 					</div>
 				</section>
 			</div>
@@ -68,36 +72,8 @@
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-		<script src="js/vendor/skrollr.min.js"></script>
-		<script src="js/vendor/skrollr.menu.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-		<script type="text/javascript">
-			//if($(window).width() <= 600){
-			//	$("nav").removeAttr("data-0 data-800 data-1500);
-			//}
-			if ($(window).width() > 600) {
-			var s = skrollr.init();
-				
-			var s = skrollr.init(/*other stuff*/);
-
-			//The options (second parameter) are all optional. The values shown are the default values.
-			skrollr.menu.init(s, {
-			//skrollr will smoothly animate to the new position using `animateTo`.
-			animate: true,
-
-			//The easing function to use.
-			easing: 'sqrt',
-
-			//How long the animation should take in ms.
-			duration: function(currentTop, targetTop) {
-				//By default, the duration is hardcoded at 500ms.
-				return 500;
-			},
-			}
-		});
-			</script>
 		
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
